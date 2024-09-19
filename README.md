@@ -1,2 +1,2 @@
 # Vidas_Conectadas
- Projeto_Faculdade
+ Projeto de desenvolvimento web da faculdade
