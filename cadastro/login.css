@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #AF1111;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px; 
+    padding: 20px;
+    width: 300px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo do formulário horizontalmente */
+   
+}
+
+h1 {
+    color: #AF1111;
+    text-align: center; /* Centraliza o texto dentro do <h1> */
+    margin-bottom: 20px; /* Espaço abaixo do <h1> */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
