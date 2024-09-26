@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vidas Conectadas</title>
     <link rel="stylesheet" href="Style/style.css">
-   
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 500px)">
+
     <script src="https://kit.fontawesome.com/142e23d5c2.js" crossorigin="anonymous"></script>
 </head>
 <header>
-    <img src="imgs/logo_mao.png" alt="">
-
+    <picture>
+        <img src="imgs/logo_mao.png" alt="" id="logo">
+    </picture>
     <nav>
         <a href="#">Onde Doar</a>
         <a href="#">Requisitos</a>
@@ -19,17 +21,20 @@
         <a href="#">Dúvidas Frequentes</a>
     </nav>
 
-    <a href="cadastro/cadastro.html"><i class="fa-solid fa-user" style="color: #ffffff; font-size: 40px;"></i></a>
+    <a href="cadastro/cadastro.html" id="iconelogin"><i class="fa-solid fa-user" style="color: #ffffff; font-size: 40px;"></i></a>
 
 </header>
 
 <body>
-    <img src="imgs/image 2.png" alt="">
+    <picture>
+        <!-- <source media="(max-width:700 )" srcset="imgs/imgMenor.png"> -->
+        <img id="img_principal" src="imgs/image 2maior.png" alt="">
+    </picture>
     <h2 id="Titulo">REQUISTOS BÁSICOS PARA DOAR</h2>
     <div id="requisitos">
-        <div id="imagem_requisito">
+        <picture>
             <img src="imgs/image 7.png" alt="">
-        </div>
+        </picture>
         <div id="texto_requisito">
             <ul id="lista">
                 <li> Ter idade entre 16 e 69 anos, (menores de 18 anos devem apresentar consentimento formal do
@@ -93,7 +98,8 @@
             não esteja sob o efeito da mesma. O uso de maconha impede a doação por 12 (doze) horas.</p>
         <br>
         <p id="info">Para mais informações, clique no link abaixo.</p>
-        <a href="http://www.hemocentro.fmrp.usp.br/canal-do-doador/duvidas-e-perguntas/" style="color:orangered;">https://www.hemocentro.fmrp.usp.br/canal-do-doador/duvidas-e-perguntas/</a>
+        <a href="http://www.hemocentro.fmrp.usp.br/canal-do-doador/duvidas-e-perguntas/"
+            style="color:orangered;">https://www.hemocentro.fmrp.usp.br/canal-do-doador/duvidas-e-perguntas/</a>
     </div>
     <footer>
         <div id="iconesfooter">

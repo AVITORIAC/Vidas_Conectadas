@@ -1,2 +1,2 @@
 # Vidas_Conectadas
- Projeto de desenvolvimento web da faculdade!
+ Projeto da faculdade da matéria de desenvolvimento web!

@@ -56,6 +56,10 @@ body > div{
     margin-left: 15px;
 }
 
+img#img_principal{
+    width: 100%;
+}
+
 h2#Titulo{
     color: var(--cor1);
     font-family: var(--fonte-padrao);
@@ -80,7 +84,6 @@ div#requisitos{
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-
 }
 
 div#imagem_requisito{
@@ -98,6 +101,7 @@ ul#lista{
     flex-direction: column;
     gap: 15px;
     padding-left: 35px;
+    margin-right: 10px;
 }
 p#telefone{
     font-weight: bold;
@@ -137,5 +141,4 @@ p#servicos{
 div#iconesfooter{
     gap: 20px;
     display: flex;
-
 }
